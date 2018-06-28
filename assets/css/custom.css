@@ -32,7 +32,7 @@
 
 *{
   font-family: 'sofia_pro';
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 body{
@@ -40,8 +40,31 @@ body{
   color: #fff;
 }
 
+
+
+/* Typografie */
+
 h1, h2, h3, h4, h5{
   font-weight: bold;
+  margin-bottom: 30px;
+}
+
+h1{
+font-size: 72px;
+}
+
+h2{
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+h3{
+  font-size: 24px;
+}
+
+p{
+  font-size: 14px;
+  margin-bottom: 30px;
 }
 
 
@@ -54,3 +77,31 @@ section{
 section.full{
   height: calc(100vh - 100px);
 }
+
+.row{
+  -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+/* Button */
+a.readmore{
+  font-weight: bold;
+  border: 1px solid #fff;
+  border-radius: 0px 0px 14px 0px;
+  color: #fff;
+  padding: 5px 30px;
+  text-transform: uppercase;
+}
+
+a.readmore:hover{
+  background-color: #fff;
+  color: rgb(0,0,0,30);
+  text-decoration: none;
+}
+
+
+/* Images */
+/*
+img{
+  padding: 50px;
+} */
